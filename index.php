@@ -37,7 +37,7 @@ function day() {
    echo '<h3>Задание 4</h3>';
 echo 
 '
-    <form action = "" method = "GET"> </br>
+    <form action = "" method = "GET">
         Reverse: <input type = "text" name = "reverse" >
         <input type = "submit" value="Reverse">
     </form>
