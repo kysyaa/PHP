@@ -64,7 +64,7 @@ $count2 = 2*($road2+$midroad);
 $count3 = 2*($road1+$midroad);
 if  ($count1<=$sum) {
     echo $sum;
-} elseif ($count2<=$count1) {
+} elseif ($count3<=$count1) {
     echo $count1;
 } elseif ($count2<=$count3) {
     echo $count3;
@@ -73,23 +73,7 @@ if  ($count1<=$sum) {
 }
 }
 }
-// $Route1= $_POST['road1']; $Route2= $_POST['road2']; $Route3= $_POST['midroad'];
-// $SumRoute = $Route1 + $Route2 + $Route3;
-// $SR1 = $Route1 * 2 + $Route2 * 2;
-// $SR2 = $Route1 * 2 + $Route3 * 2;
-// $SR3 = $Route2 * 2 + $Route3 * 2;
-// if($SumRoute >= $SR1) {
-//     if ($SR1 >= $SR2){
-//         if  ($SR2 >= $SR3){
-//             echo 'Минимальный путь - '.$SR3.'.';
-//         }
-//         else {echo 'Минимальный путь - '.$SR2.'.';}
-//     }
-//     else {echo 'Минимальный путь - '.$SR1.'.';}
-//     }
-// else {echo 'Минимальный путь - '.$SumRoute. ' пошел нахуй';}
 
-// }
 function automorphic() {
     $num = $_POST['autonum'] ?? 0;
     if ($num <= pow(10,6)) {
@@ -174,14 +158,7 @@ function years() {
 
 
 
-// echo $num =Prime( $_POST['prime']);
 
-// if ($num == 1) {
-//     echo "composite";
-    
-// } else {
-//     echo "prime";
-// }
 
 
 
